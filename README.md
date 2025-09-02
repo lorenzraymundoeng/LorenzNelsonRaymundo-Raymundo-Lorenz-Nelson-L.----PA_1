@@ -1,14 +1,14 @@
 # LorenzNelsonRaymundo/Raymundo-Lorenz-Nelson-L.----PA_1
 #### This is my submission for PA1 (Experiment 1 | Introduction to Python Programming)
 #### Part 1:
-##### The first part of this code aims to create a function that takes a string, and returns it with its letters in alphabetical order. 
-##### To do this, I created a user-defined function named "alphabet_soup", which will take the value of x (string). This string shall then be converted into a list of characters using the list I named as "m". 
-##### To sort the characters in alphabetical order, I used m.sort, which will sort the characters inside m. The sorted characters will then be stored to an empty string function.
-##### In order to display each character, for loop was used. What this does is that it loops through each iteration/character.
-##### I have then assigned a value to the empty string function so that it gets filled with character values.
-##### Finally, assign a value to string x. It can be as many as you want. The output would display the same word but in alphabetical order.
+The first part of this code aims to create a function that takes a string, and returns it with its letters in alphabetical order. 
+To do this, I created a user-defined function named "alphabet_soup", which will take the value of x (string). This string shall then be converted into a list of characters using the list I named as "m". 
+To sort the characters in alphabetical order, I used m.sort, which will sort the characters inside m. The sorted characters will then be stored to an empty string function.
+In order to display each character, for loop was used. What this does is that it loops through each iteration/character.
+I have then assigned a value to the empty string function so that it gets filled with character values.
+Finally, assign a value to string x. It can be as many as you want. The output would display the same word but in alphabetical order.
 
-###### Here is a code for you to test out:
+#### Here is a code for you to test out:
 def alphabet_soup(x): #takes a parameter x (string)
 
     m = list(x) #converts input string to a list of characters
