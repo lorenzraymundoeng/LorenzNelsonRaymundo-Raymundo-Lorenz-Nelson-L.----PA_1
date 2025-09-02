@@ -19,7 +19,7 @@ def alphabet_soup(x): #takes a parameter x (string)
         sorted_string = sorted_string + z #empty string + current letter z
     return sorted_string #returns the final sorted string
 print(alphabet_soup('hello')) #string "hello" will take the place of x
-print(alphabet_soup('hacker')) #string "hacker" will take the place of x "
+print(alphabet_soup('hacker')) #string "hacker" will take the place of x 
 
 
 #### Part 2:
