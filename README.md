@@ -79,7 +79,7 @@ print("last:", last)
 
 #### Pre-requisites
 - Python 3.0 or later
-- 
+
 #### Installation
 These codes were created on Jupyter Notebook. Make sure to install Anaconda Navigator, and access Jupyter Notebook. It's all for free! Alternatively, you could use VS Code to run the codes.
 
