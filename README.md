@@ -10,6 +10,7 @@ Finally, assign a value to string x. It can be as many as you want. The output w
 
 #### Here is a code for you to test out:
 
+''' python
 def alphabet_soup(x): #takes a parameter x (string)
     m = list(x) #converts input string to a list of characters
     m.sort() #sorts characters alphabetically
@@ -18,7 +19,7 @@ def alphabet_soup(x): #takes a parameter x (string)
         sorted_string = sorted_string + z #empty string + current letter z
     return sorted_string #returns the final sorted string
 print(alphabet_soup('hello')) #string "hello" will take the place of x
-print(alphabet_soup('hacker')) #string "hacker" will take the place of x
+print(alphabet_soup('hacker')) #string "hacker" will take the place of x "
 
 
 
