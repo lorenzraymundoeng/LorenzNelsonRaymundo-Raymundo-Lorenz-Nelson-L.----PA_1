@@ -9,8 +9,8 @@ I have then assigned a value to the empty string function so that it gets filled
 Finally, assign a value to string x. It can be as many as you want. The output would display the same word but in alphabetical order.
 
 #### Here is a code for you to test out:
-def alphabet_soup(x): #takes a parameter x (string)
 
+def alphabet_soup(x): #takes a parameter x (string)
     m = list(x) #converts input string to a list of characters
     m.sort() #sorts characters alphabetically
     sorted_string = "" #empty string to store results
