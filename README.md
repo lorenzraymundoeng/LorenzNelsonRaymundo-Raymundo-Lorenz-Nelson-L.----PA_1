@@ -1,6 +1,6 @@
 # LorenzNelsonRaymundo/Raymundo-Lorenz-Nelson-L.----PA_1
 #### This is my submission for PA1 (Experiment 1 | Introduction to Python Programming)
-#### Part 1:
+#### Part 1: Alphabetize!
 The first part of this programming assignment(PA) aims to create a function that takes a string, and returns it with its letters in alphabetical order. 
 To do this, I created a user-defined function named "alphabet_soup" which will take a string value x. This string shall then be converted into a list of characters using the list I named as "m". 
 To sort the characters in alphabetical order, I used m.sort, which will sort the characters inside m. The sorted characters will then be stored to an empty string function.
@@ -26,7 +26,7 @@ print(alphabet_soup('hacker')) #string "hacker" will take the place of x
 ```
 
 
-#### Part 2:
+#### Part 2: Emoticons!
 The second part of this PA aims to create a function that replaces the words "smile", "grin", "sad", and "mad" with their corresponding emoticons.
 To do this, I created a user-defined function named "emoticon" which will take a string value x. 
 To replace the given words with their corresponding emoticons, I assigned the value for string x to be x.replace("word", "emoticon"). What this does is that when it detects any one of the given words inside a phrase or sentence, it will replace those words with their respective emoticons.
@@ -50,8 +50,39 @@ print(emoticon('I am so sad')) #string "I am so sad" will take the place of x
 print(emoticon('You make me grin')) #string "You make me grin" will take the place of x
 ```
 
+#### Part 3: Higher Class, Middle Class, Lower Class (Numbers edition) !
+The last part of this PA aims to unpack a certain list into three variables: first, middle, and last. To explain this in a manner that is easily understandable, imagine a list which contains the letters a, b, c, and d. The goal of our code is to create an output that looks like this:
+first: a
+middle: b, c
+last: d
+Only this time, we will be using the numbers 1 to 6.
+The first thing that you have to do is to create a list x that will hold the numbers 1, 2, 3, 4, 5, 6.
+The next thing I did was assigned a value to first, middle, and last. For 'first', I assigned the index 0 (first number) value of x. For 'middle, I used slicing to get the middle values, x[1:-1], which starts and index 1 and ends just before index -1 (second number to BEFORE the last number). And lastly, for 'last', I assigned the index -1 (last number) value of x. 
+The output should look like this:
+first: 1
+middle: 2,3,4,5
+last: 6
+
+#### Here is a code for you to try out:
+```
+x = [1, 2, 3, 4, 5, 6] #creates a list x that holds the numbers 1,2,3,4,5,6
+
+first = x[0] #get the first element using index 0
+middle = x[1:-1] #get the middle elements using slicing 
+last = x[-1] #get the last element using index -1
+
+#print the variables to show the result
+print("first:", first)
+print("middle:", middle)
+print("last:", last)
+```
+
+#### Pre-requisites
+- Python 3.0 or later
+- 
+#### Installation
+These codes were created on Jupyter Notebook. Make sure to install Anaconda Navigator, and access Jupyter Notebook. It's all for free! Alternatively, you could use VS Code to run the codes.
 
 
 
-#### We were instructed to (1) Create a function that takes a string and returns a string with its letters in alphabetical order. (2) Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticons. (3) Unpack the list into three variables, being first, middle, and last, with middle being everything between the first and last element. Then print all three variables.
 
