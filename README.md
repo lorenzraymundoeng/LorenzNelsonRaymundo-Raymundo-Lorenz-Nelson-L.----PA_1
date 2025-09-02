@@ -10,7 +10,7 @@ Finally, assign a value to string x. It can be as many as you want. The output w
 
 #### Here is a code for you to test out:
 
-''' python
+```
 def alphabet_soup(x): #takes a parameter x (string)
     m = list(x) #converts input string to a list of characters
     m.sort() #sorts characters alphabetically
