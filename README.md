@@ -2,12 +2,12 @@
 #### This is my submission for PA1 (Experiment 1 | Introduction to Python Programming)
 This repository contains a Jupyter Notebook (`RAYMUNDO PA1 2ECE-A.ipynb`) that demonstrates three programming exercises using user-defined functions and slicing
 #### Part 1: Alphabetize!
-The first part of this programming assignment(PA) aims to create a function that takes a string, and returns it with its letters in alphabetical order. 
-To do this, I created a user-defined function named "alphabet_soup" which will take a string value x. This string shall then be converted into a list of characters using the list I named as "m". 
-To sort the characters in alphabetical order, I used m.sort, which will sort the characters inside m. The sorted characters will then be stored to an empty string function.
-In order to display each character, for loop was used. What this does is that it loops through each iteration/character.
+The first part of this programming assignment(PA) aims to create a function that takes a string and returns it with its letters in alphabetical order. 
+To do this, I created a user-defined function named "alphabet_soup" that takes a string value x. This string shall then be converted into a list of characters using the list I named "m". 
+To sort the characters in alphabetical order, I used m.sort, which will sort the characters inside m. The sorted characters will then be stored in an empty string function.
+In order to display each character, a for loop was used. What this does is loop through each iteration/character.
 I have then assigned a value to the empty string function so that it gets filled with character values.
-Finally, I assign a word to string x. It can be as many as you want. The output would display the same word but in alphabetical order.
+Finally, I assign a word to string x. It can be any word that you want. The output would display the same word but in alphabetical order.
 
 #### Here is a code for you to try out:
 
@@ -51,14 +51,14 @@ print(emoticon('I am so sad')) #string "I am so sad" will take the place of x
 print(emoticon('You make me grin')) #string "You make me grin" will take the place of x
 ```
 
-#### Part 3: Higher Class, Middle Class, Lower Class (Numbers edition) !
-The last part of this PA aims to unpack a certain list into three variables: first, middle, and last. To explain this in a manner that is easily understandable, imagine a list which contains the letters a, b, c, and d. The goal of our code is to create an output that looks like this:
+#### Part 3: Higher Class, Middle Class, Lower Class (Numbers edition)!
+The last part of this PA aims to unpack a certain list into three variables: first, middle, and last. To explain this in a manner that is easily understandable, imagine a list that contains the letters a, b, c, and d. The goal of our code is to create an output that looks like this:
 first: a
 middle: b, c
 last: d
 Only this time, we will be using the numbers 1 to 6.
 The first thing that you have to do is to create a list x that will hold the numbers 1, 2, 3, 4, 5, 6.
-The next thing I did was assigned a value to first, middle, and last. For 'first', I assigned the index 0 (first number) value of x. For 'middle, I used slicing to get the middle values, x[1:-1], which starts and index 1 and ends just before index -1 (second number to BEFORE the last number). And lastly, for 'last', I assigned the index -1 (last number) value of x. 
+The next thing I did was assign a value to first, middle, and last. For 'first', I assigned the index 0 (first number) value of x. For 'middle, I used slicing to get the middle values, x[1:-1], which starts at index 1 and ends just before index -1 (second number to BEFORE the last number). And lastly, for 'last', I assigned the index -1 (last number) value of x. 
 The output should look like this:
 first: 1
 middle: 2,3,4,5
@@ -82,7 +82,7 @@ print("last:", last)
 - Python 3.0 or later
 
 #### Installation
-These codes were created on Jupyter Notebook. Make sure to install Anaconda Navigator, and access Jupyter Notebook. It's all for free! Alternatively, you could use VS Code to run the codes.
+These codes were created on Jupyter Notebook. Make sure to install Anaconda Navigator and access Jupyter Notebook. It's all for free! Alternatively, you could use VS Code to run the code.
 
 
 
