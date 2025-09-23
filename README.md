@@ -1,5 +1,6 @@
 # Programming Assignment 1 | Raymundo, Lorenz Nelson L.
 #### This is my submission for PA1 (Experiment 1 | Introduction to Python Programming)
+This repository contains a Jupyter Notebook (`RAYMUNDO PA1 2ECE-A.ipynb`) that demonstrates three programming exercises using user-defined functions and slicing
 #### Part 1: Alphabetize!
 The first part of this programming assignment(PA) aims to create a function that takes a string, and returns it with its letters in alphabetical order. 
 To do this, I created a user-defined function named "alphabet_soup" which will take a string value x. This string shall then be converted into a list of characters using the list I named as "m". 
