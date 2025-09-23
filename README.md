@@ -84,6 +84,12 @@ print("last:", last)
 #### Installation
 These codes were created on Jupyter Notebook. Make sure to install Anaconda Navigator and access Jupyter Notebook. It's all for free! Alternatively, you could use VS Code to run the code.
 
-
+#### How to Run
+1.  Download the `RAYMUNDO PA1 2ECE-A.ipynb` file.
+2.  Start the Jupyter Notebook server:
+    ```bash
+    jupyter notebook
+    ```
+3.  Your web browser will open, upload `RAYMUNDO PA1 2ECE-A.ipynb`, and then click on `RAYMUNDO PA1 2ECE-A.ipynb` to open and run the notebook.
 
 
