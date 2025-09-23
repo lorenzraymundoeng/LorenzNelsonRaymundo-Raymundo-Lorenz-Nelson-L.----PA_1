@@ -10,7 +10,7 @@ Finally, I assign a word to string x. It can be as many as you want. The output 
 
 #### Here is a code for you to try out:
 
-```
+```Python
 def alphabet_soup(x): #takes a parameter x (string)
 
     m = list(x) #converts input string to a list of characters
@@ -34,7 +34,7 @@ Finally, we assigned either a word, phrase, or sentence to string x. If, for exa
 
 #### Here is a code for you to try out:
 
-```
+```Python
 def emoticon(x): #takes a parameter x (string)
     
     x = x.replace('smile' , ':)') #if the code detects a string "smile", it will replace it with :)
@@ -64,7 +64,7 @@ middle: 2,3,4,5
 last: 6
 
 #### Here is a code for you to try out:
-```
+```Python
 x = [1, 2, 3, 4, 5, 6] #creates a list x that holds the numbers 1,2,3,4,5,6
 
 first = x[0] #get the first element using index 0
