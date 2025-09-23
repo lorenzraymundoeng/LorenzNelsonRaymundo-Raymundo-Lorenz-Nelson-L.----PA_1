@@ -1,4 +1,4 @@
-# LorenzNelsonRaymundo/Raymundo-Lorenz-Nelson-L.----PA_1
+# Programming Assignment 1 | Raymundo, Lorenz Nelson L.
 #### This is my submission for PA1 (Experiment 1 | Introduction to Python Programming)
 #### Part 1: Alphabetize!
 The first part of this programming assignment(PA) aims to create a function that takes a string, and returns it with its letters in alphabetical order. 
